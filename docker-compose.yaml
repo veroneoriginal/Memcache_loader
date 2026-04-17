@@ -1,0 +1,20 @@
+services:
+  memcache_idfa:
+    image: memcached:1.6-alpine
+    ports:
+      - "33013:11211"
+
+  memcache_gaid:
+    image: memcached:1.6-alpine
+    ports:
+      - "33014:11211"
+
+  memcache_adid:
+    image: memcached:1.6-alpine
+    ports:
+      - "33015:11211"
+
+  memcache_dvid:
+    image: memcached:1.6-alpine
+    ports:
+      - "33016:11211"

@@ -1,0 +1,4 @@
+protobuf>=4.0,<6.0
+python-memcached>=1.62
+flake8==7.3.0
+pytest==9.0.3
